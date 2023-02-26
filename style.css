@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    position: relative;
+    top: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-family: 'Hind Madurai';
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.2); 
+    color: black;
+}
+
+body {
+    background-color: rgb(173, 173, 173);
+
+}
+
